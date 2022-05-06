@@ -20,6 +20,7 @@ h2{
     height: 200px;
     border-style: solid;
     animation-name: changeColor;
-    animation-duration: 6s;
-    animation-delay: 3;
+    animation-duration: 3s;
+    /*animation-delay: 3;*/
+    animation-iteration-count: infinite;
 }
