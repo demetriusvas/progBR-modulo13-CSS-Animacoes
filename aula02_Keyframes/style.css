@@ -21,8 +21,9 @@ h2{
     border-style: solid;
     animation-name: changeColor;
     animation-duration: 3s;
-    /*animation-delay: 3;*/
-    animation-direction: alternate-reverse;
-    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    /*animation-direction: alternate-reverse;*/
+    /*animation-iteration-count: infinite;*/
+    animation-fill-mode: both;
 
 }
