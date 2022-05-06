@@ -10,8 +10,10 @@ h2{
 
 
 @keyframes changeColor{
-    from {background-color: red;}
-    to {background-color: blue;}
+    0% {background-color: red;}
+    25% {background-color: green;}
+    50% {background-color: yellow;}
+    100% {background-color: blue;}
 }
 
 .box{
@@ -19,5 +21,5 @@ h2{
     height: 200px;
     border-style: solid;
     animation-name: changeColor;
-    animation-duration: 3s;
+    animation-duration: 6s;
 }
