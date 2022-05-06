@@ -20,7 +20,7 @@ h2{
     transition-delay: 100ms;
     transition-timing-function: ease-in-out; */
 
-    transition: background-color 500ms 1s, padding 3s;
+    transition: background-color 500ms ease-out, padding 800ms;
 }
 
 .btn:hover{
