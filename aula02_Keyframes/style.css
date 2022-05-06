@@ -22,5 +22,7 @@ h2{
     animation-name: changeColor;
     animation-duration: 3s;
     /*animation-delay: 3;*/
+    animation-direction: alternate-reverse;
     animation-iteration-count: infinite;
+
 }
